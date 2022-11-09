@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>Detail</title>
+</head>
+<body>
+    <h1>Golf Club Details Page</h1>
+    <p>Name: {{ golfclub.name }}</p>
+    <p>Location: {{ golfclub.location }}</p>
+
+    <p><a href="{% url 'c_edit' golfclub.pk %}">+ Edit Golf Club Record</a></p>
+</body>
+</html>
